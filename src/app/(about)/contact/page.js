@@ -1,20 +1,21 @@
-import LottieAnimation from "@/src/components/Contact/LottieAnimation";
-import siteMetadata from "@/src/utils/siteMetaData";
+import AboutCoverSection from "@/src/components/About/AboutCoverSection1";
+import Skills from "@/src/components/About/Skills";
+import Link from "next/link";
 
 
 export const metadata = {
-  title: "Contact Me",
-  description: `Contact me through the form available on this page or email me at ${siteMetadata.email}`,
+  title: "About Me",
+  description: `Here are some details about my self.`,
 };
 
-
-export default function Contact() {
+export default function About() {
   return (
-    <section className="w-full h-auto md:h-[75vh] border-b-2 border-solid border-dark dark:border-light flex  flex-col md:flex-row items-center justify-center text-dark dark:text-light">
-      <div className="inline-block w-full sm:w-4/5 md:w-2/5 h-full md:border-r-2 border-solid border-dark dark:border-light"><LottieAnimation /></div>
-      <div className="w-full  md:w-3/5 flex flex-col items-start justify-center px-5 xs:px-10 md:px-16 pb-8">
-        <h2 className="font-bold  text-2xl xs:text-3xl sm:text-4xl">Info@pasjahisa.si</h2>
-       </div>
-    </section>
+    <>
+      <AboutCoverSection />
+      <Skills />
+      {/* <h2 className="mt-8 font-semibold text-lg md:text-2xl self-start mx-5 xs:mx-10 sm:mx-12 md:mx-16 lg:mx-20 text-dark dark:text-light dark:font-normal"> 
+      Have a project in mind? Reach out to me 📞 from <Link href="/contact"  className="!underline underline-offset-2"   >here</Link> and let's make it happen.
+      </h2> */}
+    </>
   );
 }

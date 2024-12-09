@@ -56,6 +56,23 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+      <Script
+        strategy='lazyOnload'
+        src={`https://www.googletagmanager.com/gtag/js?id=G-HG5EQL23F4`}
+      />
+
+      <Script id='' strategy='lazyOnload'>
+        {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-HG5EQL23F4', {
+              page_path: window.location.pathname,
+              });
+          `}
+      </Script>
+      </head>
       <body
         className={cx(
           inter.variable,

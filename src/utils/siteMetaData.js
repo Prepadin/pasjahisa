@@ -1,6 +1,16 @@
 // please update required information
 const siteMetadata = {
     title: 'Pasja hiša za vse ljubitelje psov',
+    keywords: [
+      'Nasveti za nego psa',
+      'Najboljše pasme',
+      'Kako vzgojiti kužka',
+      'Pogoste zdravstvene težave psov',
+      'Navodila za prehrano psov',
+      'Recepti za domače priboljške za pse',
+      'Potovanje s psi',
+      'Težave z vedenjem psa',
+       ],
     author: 'Prepad',
     headerTitle: 'Next.js Blog',
     description: 'A blog created with Next.js, Tailwind.css and contentlayer.',

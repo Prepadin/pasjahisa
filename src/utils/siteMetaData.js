@@ -1,6 +1,7 @@
 // please update required information
 const siteMetadata = {
     title: 'Pasja hiša za vse ljubitelje psov',
+    description: 'Odkrijte svet psov! Od strokovnih nasvetov o usposabljanju in negi do zabavnih dejstev. Imamo vse, da bo vaš kosmati prijatelj srečen in zdrav',
     keywords: [
       'Nasveti za nego psa',
       'Najboljše pasme',
@@ -12,11 +13,10 @@ const siteMetadata = {
       'Težave z vedenjem psa',
        ],
     author: 'Prepad',
-    headerTitle: 'Next.js Blog',
-    description: 'A blog created with Next.js, Tailwind.css and contentlayer.',
+    headerTitle: 'Pasja Hisa',
     language: 'en-us',
     theme: 'system', // system, dark or light
-    siteUrl: 'https://create-blog-with-nextjs.vercel.app', // your website URL
+    siteUrl: 'https://pasjahisa.si', // your website URL
     siteLogo: '/logo.png',
     socialBanner: '/social-banner.png', // add social banner in the public folder
     email: 'info@pasjahisa.si', 

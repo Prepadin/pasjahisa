@@ -29,7 +29,7 @@ const Footer = () => {
       >
         <input
           type="email"
-          placeholder="Enter your email"
+          placeholder="Vnesite svoj e-poštni naslov"
           {...register("email", { required: true, maxLength: 80 })}
           className="w-full bg-transparent pl-2 sm:pl-0 text-dark focus:border-dark focus:ring-0 border-0 border-b mr-2 pb-1"
         />
